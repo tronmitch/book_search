@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "prestart:" ""
     "start": "node server.js",
     "watch": "nodemon server.js"
   },
