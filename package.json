@@ -10,7 +10,7 @@
     "build": "cd client && npm run build",
     "render-build": "npm install && npm run build"
   },
-   "engines": {
+  "engines": {
     "node": "20.11.1"
   },
   "keywords": [],
@@ -20,6 +20,8 @@
     "concurrently": "^8.2.0"
   },
   "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "graphql": "^16.8.1",
     "mongodb": "^6.5.0"
   }
 }
