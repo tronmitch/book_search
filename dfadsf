@@ -1,0 +1,213 @@
+[33mcommit 11a23bae5481ceeb0dff3ee226c89279c6f2be3e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Thu Apr 11 15:17:00 2024 -0600
+
+    vite
+
+[33mcommit 9cf89e511d6b8322733d9c745359747a4d76a7df[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Thu Apr 11 14:18:50 2024 -0600
+
+    changed vite version
+
+[33mcommit 0bfa813ae432128343d6e9aa92a4ba5a2e901a84[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Thu Apr 11 14:12:48 2024 -0600
+
+    changed mongoose.con connect
+
+[33mcommit 05f076fff0dcee00ca19bf3287686f36224d1774[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Thu Apr 11 13:39:54 2024 -0600
+
+    updated  package json
+
+[33mcommit db11f8230c2fc7200cb0fcab19b4949e7c6ff5b4[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Wed Mar 27 00:44:10 2024 -0600
+
+    added noed models back in
+
+[33mcommit 7406671da3325628777b9ae0286e59633175902f[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Wed Mar 27 00:41:04 2024 -0600
+
+    added noed models back in
+
+[33mcommit 5dfe498c58c1f08af5666b3d172d79aa596591f1[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Wed Mar 27 00:34:56 2024 -0600
+
+    added noed models back in
+
+[33mcommit 579293cdded2bd4910ae204924b30724dc290a34[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Wed Mar 27 00:29:43 2024 -0600
+
+    added noed models back in
+
+[33mcommit ff5d292c5d08d177d84089dc2103154ccb4d9ab2[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Wed Mar 27 00:27:24 2024 -0600
+
+    added noed models back in
+
+[33mcommit b7c074438940d3f406664fe03c4a5ead182fedc3[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Wed Mar 27 00:21:08 2024 -0600
+
+    added noed models back in
+
+[33mcommit d17a2a0bdddee095e99294b7cbd5edc32910d585[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Wed Mar 27 00:13:59 2024 -0600
+
+    1
+
+[33mcommit 215f547175b94376c25b59fc054d8afcdbffd1f2[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Wed Mar 27 00:09:12 2024 -0600
+
+    add node_modules
+
+[33mcommit da9ceb9092aac1eb64ba35cddbb7b16c6823762c[m
+Merge: 488ba143 29154e1a
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Wed Mar 27 00:03:19 2024 -0600
+
+    Merge branch 'main' of github.com:tronmitch/book_search
+
+[33mcommit 488ba14343d9e557d79d1bf07c23b888e471442f[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Wed Mar 27 00:02:13 2024 -0600
+
+    do it
+
+[33mcommit 29154e1aba9a77ced6e36df3cf428de9ad9531f7[m
+Author: tronmitch <142280789+tronmitch@users.noreply.github.com>
+Date:   Tue Mar 26 23:59:19 2024 -0600
+
+    Update package.json
+
+[33mcommit 0782535ea25be630c6fef749c140b58d985b3062[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Tue Mar 26 23:57:32 2024 -0600
+
+    do it
+
+[33mcommit 273c908fa6100b7e977703dbe79bc0a8919902f0[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Tue Mar 26 23:53:15 2024 -0600
+
+    install updates
+
+[33mcommit 6586f934ffde2976fc377d4a7ff30b22c7350a79[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Tue Mar 26 23:41:43 2024 -0600
+
+    install updates
+
+[33mcommit 422a33504251dd9069cfdb8233e916f6a0770dc6[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Tue Mar 26 23:19:55 2024 -0600
+
+    add install
+
+[33mcommit ee133f461562055ace259045be33991d8afaca7a[m
+Merge: 25c87ff8 b35f2cac
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Tue Mar 26 22:30:03 2024 -0600
+
+    Merge branch 'main' of github.com:tronmitch/book_search
+
+[33mcommit 25c87ff8665210e6da6b962cf8975f9e0b9cfe69[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Tue Mar 26 22:29:35 2024 -0600
+
+    reverted server.js
+
+[33mcommit b35f2cac9a7161690c0ed76188ae39e274f0e3c2[m
+Author: tronmitch <142280789+tronmitch@users.noreply.github.com>
+Date:   Tue Mar 26 21:54:19 2024 -0600
+
+    Delete node_modules directory
+
+[33mcommit e4eba8614fa18ebe0a98d90dc98c510b07bdd4f3[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Tue Mar 26 21:53:07 2024 -0600
+
+    connection changed
+
+[33mcommit 46fe0832ad433137632d887cbec52aba3383de68[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Sat Mar 23 17:24:31 2024 -0600
+
+    changed local host to 0.0.0.0
+
+[33mcommit 95cfc26e490ef6513487d0dc08118920b71bca3b[m
+Merge: ea72c9b1 ca2751dc
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Sat Mar 23 16:19:15 2024 -0600
+
+    Merge branch 'main' of github.com:tronmitch/book_search
+
+[33mcommit ea72c9b16e09622d97967d8b3cfce886b3fd19eb[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Sat Mar 23 16:18:36 2024 -0600
+
+    added gitignore updates
+
+[33mcommit ca2751dc1180d0722dd7c04b8a683500b957709f[m
+Author: tronmitch <142280789+tronmitch@users.noreply.github.com>
+Date:   Sat Mar 23 16:17:07 2024 -0600
+
+    Delete server/node_modules directory
+
+[33mcommit 6bbe04473296988104c2e10b0b7a38e87807a611[m
+Merge: 6e1744b7 814eb70a
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Sat Mar 23 16:01:11 2024 -0600
+
+    Merge branch 'main' of github.com:tronmitch/book_search
+
+[33mcommit 6e1744b751601f354ee68e4c3279b29240e5c403[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Sat Mar 23 16:00:31 2024 -0600
+
+    fixed bug in package.json
+
+[33mcommit 814eb70ac79a420b6ed5ac41e952c9d70dba1841[m
+Author: tronmitch <142280789+tronmitch@users.noreply.github.com>
+Date:   Sat Mar 23 15:26:07 2024 -0600
+
+    Update package.json
+
+[33mcommit d9ea6a407426a68b24680410ccaf272102bf5532[m
+Author: tronmitch <142280789+tronmitch@users.noreply.github.com>
+Date:   Sat Mar 23 15:12:40 2024 -0600
+
+    Delete node_modules directory
+
+[33mcommit 71a4406375e4f977ba200f41ea512222150f9b54[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Sat Mar 23 11:10:20 2024 -0600
+
+    removed bcyrpt install
+
+[33mcommit 10482dd3ec72c4655ae77d4106325036e01dff81[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Sat Mar 23 11:00:32 2024 -0600
+
+    added scripts
+
+[33mcommit 7d8310b026806ebb207d814bc31f4f5689ed4b47[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Sat Mar 23 09:53:01 2024 -0600
+
+    restart
+
+[33mcommit e5503a04c0335ca4c30c36b64066f07947b04942[m
+Author: tronmitch <theron.mitchell@gmail.com>
+Date:   Sat Mar 23 08:08:09 2024 -0600
+
+    initial set up fixed book schema
