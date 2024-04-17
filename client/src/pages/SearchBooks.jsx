@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Container, Col, Form, Button, Card, Row } from 'react-bootstrap';
-import { useMutation } from '@apollo/client';
-import { SAVE_BOOK } from '../graphql/mutations';
+import { useMutation, useLazyQuery } from '@apollo/client';
+import { SAVE_BOOK  } from '../graphql/mutations';
+import { SEARCH_BOOKS  } from '../graphql/queries';
 import Auth from '../utils/auth';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 
@@ -9,18 +10,24 @@ const SearchBooks = () => {
     const [searchedBooks, setSearchedBooks] = useState([]);
     const [searchInput, setSearchInput] = useState('');
     const [savedBookIds, setSavedBookIds] = useState(getSavedBookIds());
+    const [searchBookQuery, { loading, data }] = useLazyQuery(SEARCH_BOOKS);
     const [saveBookMutation, { error }] = useMutation(SAVE_BOOK);
 
-    useEffect(() => {
-        return () => saveBookIds(savedBookIds);
-    });
+
 
     const handleFormSubmit = async (event) => {
         event.preventDefault();
         if (!searchInput) {
             return false;
         }
-        // Integration with Google Books API remains unchanged
+        try {
+          console.log("Search Tag", searchInput)
+          await searchBookQuery({ variables: { query: searchInput } });
+          console.log("Search Results", searchBookQuery)
+          setSearchInput('');
+        } catch (err) {
+          console.error(err);
+        }
     };
 
     const handleSaveBook = async (bookId) => {
@@ -41,6 +48,17 @@ const SearchBooks = () => {
             console.error('Error saving the book:', err);
         }
     };
+
+    useEffect(() => {
+      return () => saveBookIds(savedBookIds);
+  }, [savedBookIds]);
+
+  useEffect(() => {
+    if (data) {
+      console.log("Data received from GraphQL:", data);
+      setSearchedBooks(data.searchBooks || []);
+    }
+  }, [data]);
 
   return (
     <>
