@@ -1,4 +1,5 @@
 const { User } = require("../models")
+const { signToken } = require('../utils/auth');
 
 const resolvers = {
      Query: {
@@ -36,9 +37,8 @@ const resolvers = {
         Mutation: {
           addUser: async (_, { username, email, password }) => {
             const user = await User.create({ username, email, password });
-          //   const token = signToken(user);
-          //   return { token, user };
-            return { user };
+            const token = signToken(user);
+            return { token, user };
           },
           login: async (_, { username, password }) => {
             const user = await User.findOne({ username });
