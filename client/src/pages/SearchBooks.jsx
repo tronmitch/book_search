@@ -54,9 +54,9 @@ const SearchBooks = () => {
   }, [savedBookIds]);
 
   useEffect(() => {
-    if (data) {
+    if (data ) {
       console.log("Data received from GraphQL:", data);
-      setSearchedBooks(data.searchBooks || []);
+      setSearchedBooks(data.searchBookQuery || []);
     }
   }, [data]);
 
