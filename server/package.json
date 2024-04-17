@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.13.0",
+    "axios": "^1.6.8",
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "ip-address": "^9.0.5",
