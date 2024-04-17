@@ -6,7 +6,7 @@ type User {
     _id: ID
     username: String
     email: String
-    savedBooks: [Book]
+    password: String
   }
   
   type Book {
